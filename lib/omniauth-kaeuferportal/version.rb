@@ -1,5 +1,5 @@
 module OmniAuth
   module Kaeuferportal
-    VERSION = "0.9.0"
+    VERSION = "1.1.0"
   end
 end

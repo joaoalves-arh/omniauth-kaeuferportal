@@ -130,6 +130,7 @@ module OmniAuth
       def raw_info
         access_token.options[:mode] = :query
         access_token.options[:param_name] = 'oauth_token'
+        access_token.client.connection.headers['Accept-Encoding'] = ''
         @raw_info ||= access_token.get('/oauth/user').parsed
       end
 

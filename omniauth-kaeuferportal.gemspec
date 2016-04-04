@@ -2,10 +2,10 @@
 require File.expand_path('../lib/omniauth-kaeuferportal/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.1.0'
-  gem.add_dependency 'oauth2', '=0.7.1'
+  gem.add_dependency 'omniauth', '~> 1.3'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.4'
 
-  gem.add_development_dependency 'rspec', '~> 2.7'
+  gem.add_development_dependency 'rspec', '~> 3.0'
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'simplecov'

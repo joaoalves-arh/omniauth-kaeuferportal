@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["christoph.rahles@kaeuferportal.de"]
   gem.description   = %q{Kaeuferportal-OAuth2 strategy for OmniAuth.}
   gem.summary       = %q{Kaeuferportal-OAuth2 strategy for OmniAuth.}
-  gem.homepage      = "https://github.com/Beko-Kaeuferportal/omniauth-kaeuferportal"
+  gem.homepage      = "https://github.com/kaeuferportal/omniauth-kaeuferportal"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")

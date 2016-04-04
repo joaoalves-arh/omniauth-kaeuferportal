@@ -5,7 +5,7 @@ module OmniAuth
     class Kaeuferportal < OmniAuth::Strategies::OAuth2
       option :name, "kaeuferportal"
       option :client_options, {
-        site: 'https://auth.kaueferportal.de',
+        site: 'https://auth.kaeuferportal.de',
         authorize_url: '/oauth/authorize',
         token_url: '/oauth/token'
       }
